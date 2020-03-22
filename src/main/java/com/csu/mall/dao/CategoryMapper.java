@@ -8,7 +8,6 @@ import org.apache.ibatis.annotations.Select;
 /**
  * Created by lihao on 2020/3/22.
  */
-@Mapper
 public interface CategoryMapper {
 
     @Select("select * from mall_category where id = #{id}")
