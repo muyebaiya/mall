@@ -4,3 +4,6 @@ spring:
     username: root
     password: lihao123456
     url: jdbc:mysql://127.0.0.1:3306/paySystem?characterEncoding=utf-8&useSSL=false
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
